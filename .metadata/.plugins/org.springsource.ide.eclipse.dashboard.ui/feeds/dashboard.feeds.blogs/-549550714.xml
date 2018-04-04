@@ -29,7 +29,7 @@
     <id>tag:spring.io,2018-04-03:3223</id>
     <updated>2018-04-03T21:07:51Z</updated>
     <content type="html">&lt;p&gt;Hi Spring fans! What a week! This week I&amp;rsquo;m in beautiful Dallas, TX, for the Spring One Tour Dallas event which is, like so many of the other cities already, utterly and completely sold out! What a crowd! &lt;/p&gt;
-&lt;p&gt;&lt;blockquote class="twitter-tweet" data-lang="en"&gt;&lt;p lang="en" dir="ltr"&gt;Wow &lt;a href="https://twitter.com/hashtag/SpringOneTour?src=hash&amp;amp;ref_src=twsrc%5Etfw"&gt;#SpringOneTour&lt;/a&gt; Dallas, you¡¯re so &lt;a href="https://twitter.com/hashtag/bootiful?src=hash&amp;amp;ref_src=twsrc%5Etfw"&gt;#bootiful&lt;/a&gt; ! &lt;a href="https://t.co/SySCBw4UNX"&gt;pic.twitter.com/SySCBw4UNX&lt;/a&gt;&lt;/p&gt;&amp;mdash; Josh Long (?ñýõð, ???) (@starbuxman) &lt;a href="https://twitter.com/starbuxman/status/981241053612298240?ref_src=twsrc%5Etfw"&gt;April 3, 2018&lt;/a&gt;&lt;/blockquote&gt;&lt;br/&gt;&lt;script async src="https://platform.twitter.com/widgets.js" charset="utf-8"&gt;&lt;/script&gt;&lt;/p&gt;
+&lt;p&gt;&lt;blockquote class="twitter-tweet" data-lang="en"&gt;&lt;p lang="en" dir="ltr"&gt;Wow &lt;a href="https://twitter.com/hashtag/SpringOneTour?src=hash&amp;amp;ref_src=twsrc%5Etfw"&gt;#SpringOneTour&lt;/a&gt; Dallas, youâ€™re so &lt;a href="https://twitter.com/hashtag/bootiful?src=hash&amp;amp;ref_src=twsrc%5Etfw"&gt;#bootiful&lt;/a&gt; ! &lt;a href="https://t.co/SySCBw4UNX"&gt;pic.twitter.com/SySCBw4UNX&lt;/a&gt;&lt;/p&gt;&amp;mdash; Josh Long (é¾™ä¹‹æ˜¥, à¤œà¥‹à¤¶) (@starbuxman) &lt;a href="https://twitter.com/starbuxman/status/981241053612298240?ref_src=twsrc%5Etfw"&gt;April 3, 2018&lt;/a&gt;&lt;/blockquote&gt;&lt;br/&gt;&lt;script async src="https://platform.twitter.com/widgets.js" charset="utf-8"&gt;&lt;/script&gt;&lt;/p&gt;
 &lt;p&gt;And, so, without further ado, let&amp;rsquo;s get to it!&lt;/p&gt;
 &lt;ul&gt;
   &lt;li&gt;Spring Framework Juergen Hoeller has just &lt;a href="https://spring.io/blog/2018/04/03/spring-framework-5-0-5-and-4-3-15-available-now"&gt;announced Spring Framework 5.0.5 and 4.3.15 are now available.&lt;/a&gt;&lt;/li&gt;
@@ -71,7 +71,7 @@
     <id>tag:spring.io,2018-04-03:3222</id>
     <updated>2018-04-03T21:02:00Z</updated>
     <content type="html">&lt;p&gt;Dear Spring community,&lt;/p&gt;
-&lt;p&gt;I¡¯m pleased to announce that Spring Framework &lt;a href="https://jira.spring.io/secure/ReleaseNote.jspa?projectId=10000&amp;version=16634"&gt;5.0.5&lt;/a&gt; and &lt;a href="https://jira.spring.io/secure/ReleaseNote.jspa?projectId=10000&amp;version=16633"&gt;4.3.15&lt;/a&gt; are &lt;a href="https://projects.spring.io/spring-framework/"&gt;available now&lt;/a&gt;, as another pair of refinement releases which are recommended as immediate upgrades for all users. Our 5.0.5 release is the foundation for the upcoming Spring Boot 2.0.1 release later this week, and 4.3.15 will be picked up by Boot 1.5.11 around the same time.&lt;/p&gt;
+&lt;p&gt;Iâ€™m pleased to announce that Spring Framework &lt;a href="https://jira.spring.io/secure/ReleaseNote.jspa?projectId=10000&amp;version=16634"&gt;5.0.5&lt;/a&gt; and &lt;a href="https://jira.spring.io/secure/ReleaseNote.jspa?projectId=10000&amp;version=16633"&gt;4.3.15&lt;/a&gt; are &lt;a href="https://projects.spring.io/spring-framework/"&gt;available now&lt;/a&gt;, as another pair of refinement releases which are recommended as immediate upgrades for all users. Our 5.0.5 release is the foundation for the upcoming Spring Boot 2.0.1 release later this week, and 4.3.15 will be picked up by Boot 1.5.11 around the same time.&lt;/p&gt;
 &lt;p&gt;Both framework releases come with plenty of bug fixes but also with a wide selection of refinements, wrapping up before we branch towards Spring Framework 5.1 and turn the 5.0.x and 4.3.x lines into low-volume maintenance mode. Our 5.0.5 build is also prepared for running on the recently released JDK 10, allowing the framework to be built and tested on JDK 8 as well as 9 and 10 in the meantime. Last but not least, 5.0.5 (and to a minor degree 4.3.15 as well) includes significant performance improvements for annotation introspection on startup.&lt;/p&gt;
 &lt;p&gt;In terms of the roadmap, we have 5.0.6 and 4.3.16 planned for May before we aim for 5.1 RC1 at the very end of June&amp;hellip; preparing for JDK 11 and other infrastructure upgrades. Stay tuned!&lt;/p&gt;
 &lt;p&gt;Cheers,&lt;br/&gt;Juergen&lt;/p&gt;</content>
@@ -498,7 +498,7 @@ dependencies {&#xD;
   &lt;li&gt;Spring Security SAML DSL lead Filip Hanik has &lt;a href="https://spring.io/blog/2018/03/26/spring-security-saml-dsl-1-0-5-release"&gt;just announced the 1.0.5.RELEASE of our SAML DSL project&lt;/a&gt;. This release works against Spring Security SAML 1.0.4.RELEASE. This release adds a simple Java configuration option to your existing Spring Boot applications.&lt;/li&gt;
   &lt;li&gt;Ryan Baxter has just &lt;a href="https://spring.io/blog/2018/03/23/spring-cloud-finchley-m9-has-been-released"&gt;announced Spring Cloud Finchley.M9&lt;/a&gt;. This new release includes some nice features in Spring Cloud Gateway including support for rolling deployments and route refresh from service discovery heartbeats.&lt;/li&gt;
   &lt;li&gt;Spring Tool Suite lead Martin Lippert has &lt;a href="https://spring.io/blog/2018/03/22/spring-tool-suite-3-9-3-released"&gt;just announced Spring Tool Suite 3.9.3&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;Erdem G?nay shares the journey of &lt;a href="https://www.infoq.com/presentations/turkcell-spring-boot-cloud"&gt;re-platforming Turkcell TV service to Cloud Native within a few months using Spring Boot and Spring Cloud.&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Erdem GÃ¼nay shares the journey of &lt;a href="https://www.infoq.com/presentations/turkcell-spring-boot-cloud"&gt;re-platforming Turkcell TV service to Cloud Native within a few months using Spring Boot and Spring Cloud.&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;Ryan Dawson looks at application reconfiguration &lt;a href="https://dzone.com/articles/spring-cloud-config-server-for-the-impatient"&gt;with Spring Cloud Config Server&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;The &lt;em&gt;Java Dev Journal&lt;/em&gt; has a simple &lt;a href="https://www.javadevjournal.com/spring-boot/spring-boot-standalone-application/"&gt;walkthrough introducing Spring Boot&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;Shubham Aggarwal has a &lt;a href="https://www.javacodegeeks.com/2018/03/spring-data-jpa-example-with-spring-boot.html"&gt;nice post demonstrating Spring Data JPA with Spring Boot&lt;/a&gt;&lt;/li&gt;
@@ -759,7 +759,7 @@ dependencies {&#xD;
 &lt;p&gt;Enjoy!&lt;/p&gt;</content>
   </entry>
   <entry>
-    <title>It¡¯s never been a better time to be a Spring Developer</title>
+    <title>Itâ€™s never been a better time to be a Spring Developer</title>
     <link rel="alternate" href="https://spring.io/blog/2018/03/21/it-s-never-been-a-better-time-to-be-a-spring-developer" />
     <category term="news" label="News and Events" />
     <author>
@@ -768,18 +768,18 @@ dependencies {&#xD;
     <id>tag:spring.io,2018-03-19:3213</id>
     <updated>2018-03-21T14:32:00Z</updated>
     <content type="html">&lt;p&gt;Posting this on behalf of &lt;a href="http://www.twitter.com/mkheck"&gt;Mark Heckler&lt;/a&gt;, from the Pivotal evangelist team.&lt;/p&gt;
-&lt;p&gt;The last 12 months have been incredible for Spring developers. In that time, we¡¯ve seen Spring Framework 5.0, Spring Boot 2, and Project Reactor go GA. We¡¯ve also had new and updated component releases in every major Spring project! There¡¯s never been a better time to be a Spring dev!&lt;/p&gt;
-&lt;p&gt;With all of these new tools and features, how can you keep up? How can you learn the most, in the shortest amount of time, from Spring team developers and key contributors? Come to &lt;a href="https://springoneplatform.io/?utm_source=pivotal-email&amp;utm_medium=email-link&amp;utm_campaign=s1p-heckler-q118"&gt;SpringOne Platform&lt;/a&gt;, of course! This September 24-27 we will all be gathering at the Gaylord National Resort in National Harbor, MD (near Washington, D.C.) to dive deep into the new bits and discuss (and show) how to put them to full use, at full velocity. The week will be packed with live coding and lively conversations, and you¡¯re invited to be a part of it!&lt;/p&gt;
-&lt;p&gt;Just a few of the hottest topics that we¡¯ll be exploring at SpringOne Platform:&lt;/p&gt;
+&lt;p&gt;The last 12 months have been incredible for Spring developers. In that time, weâ€™ve seen Spring Framework 5.0, Spring Boot 2, and Project Reactor go GA. Weâ€™ve also had new and updated component releases in every major Spring project! Thereâ€™s never been a better time to be a Spring dev!&lt;/p&gt;
+&lt;p&gt;With all of these new tools and features, how can you keep up? How can you learn the most, in the shortest amount of time, from Spring team developers and key contributors? Come to &lt;a href="https://springoneplatform.io/?utm_source=pivotal-email&amp;utm_medium=email-link&amp;utm_campaign=s1p-heckler-q118"&gt;SpringOne Platform&lt;/a&gt;, of course! This September 24-27 we will all be gathering at the Gaylord National Resort in National Harbor, MD (near Washington, D.C.) to dive deep into the new bits and discuss (and show) how to put them to full use, at full velocity. The week will be packed with live coding and lively conversations, and youâ€™re invited to be a part of it!&lt;/p&gt;
+&lt;p&gt;Just a few of the hottest topics that weâ€™ll be exploring at SpringOne Platform:&lt;/p&gt;
 &lt;ul&gt;
   &lt;li&gt;
   &lt;p&gt;Project Reactor, allows you to easily create massively scalable &amp;amp; performant distributed applications and systems, maximizing reactive gains throughout the entire stack!&lt;/p&gt;&lt;/li&gt;
   &lt;li&gt;
-  &lt;p&gt;riff brings functions, sometimes called &amp;ldquo;serverless&amp;rdquo; capabilities, to your Spring developers. See how to get started and go far fast using riff¡¦?and learn all about its cool recursive acronym (riff is for functions)!&lt;/p&gt;&lt;/li&gt;
+  &lt;p&gt;riff brings functions, sometimes called &amp;ldquo;serverless&amp;rdquo; capabilities, to your Spring developers. See how to get started and go far fast using riffâ€¦â€‹and learn all about its cool recursive acronym (riff is for functions)!&lt;/p&gt;&lt;/li&gt;
   &lt;li&gt;
   &lt;p&gt;Spring Framework 5 launched with Java 8 and 9 support and full first-class support for Kotlin, the language I call &amp;ldquo;Java++&amp;rdquo; for its logical leap forward with Java capabilities and its seamless interoperability with Java and Spring. It also incorporates WebFlux+Netty side by side with WebMVC+Tomcat, allowing you to move between imperative and reactive code and capabilities with ridiculous ease!&lt;/p&gt;&lt;/li&gt;
   &lt;li&gt;
-  &lt;p&gt;Spring Boot 2.0 takes all of the goodness of all of the Spring projects and even more and enables you to quickly build production-ready applications deployable anywhere there¡¯s a JVM. Spring Boot 2 is even more powerful than v1.x due to its inclusion of Kotlin, Project Reactor, updated testing chops (including JUnit 5), and more!&lt;/p&gt;&lt;/li&gt;
+  &lt;p&gt;Spring Boot 2.0 takes all of the goodness of all of the Spring projects and even more and enables you to quickly build production-ready applications deployable anywhere thereâ€™s a JVM. Spring Boot 2 is even more powerful than v1.x due to its inclusion of Kotlin, Project Reactor, updated testing chops (including JUnit 5), and more!&lt;/p&gt;&lt;/li&gt;
   &lt;li&gt;
   &lt;p&gt;Spring Cloud takes routing, streams, and general cloud dominance further than ever. Spring Cloud Gateway puts intelligent routing in top gear, offering HTTP/SSE/WebSocket routing, rate limiting, canary deploy functionality, and more. Spring Cloud Stream lets you integrate and interact with popular message queue solutions like RabbitMQ and Apache Kafka dynamically, using powerful abstractions to give your streaming applications superpowers.&lt;/p&gt;&lt;/li&gt;
   &lt;li&gt;
@@ -787,9 +787,9 @@ dependencies {&#xD;
   &lt;li&gt;
   &lt;p&gt;Spring Security is also Reactor-ready and enables you to secure your apps with maximum scalability. With the new Spring Security, scale your concurrent users like crazy without sacrificing performance or security!&lt;/p&gt;&lt;/li&gt;
   &lt;li&gt;
-  &lt;p&gt;We¡¯ll also talk about microservices, CI/CD, event sourcing, achieving and maintaining development velocity, and SO MUCH MORE! You aren¡¯t going to want to miss any of this.&lt;/p&gt;&lt;/li&gt;
+  &lt;p&gt;Weâ€™ll also talk about microservices, CI/CD, event sourcing, achieving and maintaining development velocity, and SO MUCH MORE! You arenâ€™t going to want to miss any of this.&lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;Come prepared to drink deeply from the (Spring) source! Join us at SpringOne Platform to learn, share, grow, and supercharge your teams&amp;rsquo; knowledge and velocity. Can¡¯t wait to see you there!&lt;/p&gt;
+&lt;p&gt;Come prepared to drink deeply from the (Spring) source! Join us at SpringOne Platform to learn, share, grow, and supercharge your teams&amp;rsquo; knowledge and velocity. Canâ€™t wait to see you there!&lt;/p&gt;
 &lt;p&gt;Cheers,&lt;br/&gt;&lt;a href="http://www.twitter.com/mkheck"&gt;Mark&lt;/a&gt;&lt;/p&gt;</content>
   </entry>
   <entry>
@@ -1040,7 +1040,7 @@ dependencies {&#xD;
 &lt;div class="title"&gt;Tip&lt;/div&gt;
 &lt;/td&gt;
 &lt;td class="content"&gt;
-To learn more about Micrometer¡¯s capabilities, please refer to its &lt;a href="https://micrometer.io/docs"&gt;reference documentation&lt;/a&gt;, in particular the &lt;a href="https://micrometer.io/docs/concepts"&gt;concepts section&lt;/a&gt;.
+To learn more about Micrometerâ€™s capabilities, please refer to its &lt;a href="https://micrometer.io/docs"&gt;reference documentation&lt;/a&gt;, in particular the &lt;a href="https://micrometer.io/docs/concepts"&gt;concepts section&lt;/a&gt;.
 &lt;/td&gt;
 &lt;/tr&gt;
 &lt;/table&gt;
@@ -1099,7 +1099,7 @@ To learn more about Micrometer¡¯s capabilities, please refer to its &lt;a href="
 &lt;p&gt;Logback: record the number of events logged to Logback at each level&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;Uptime: report a gauge for uptime and a fixed gauge representing the application¡¯s absolute start time&lt;/p&gt;
+&lt;p&gt;Uptime: report a gauge for uptime and a fixed gauge representing the applicationâ€™s absolute start time&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;Tomcat usage&lt;/p&gt;
@@ -1402,7 +1402,7 @@ http.server.requests.response.200.uri./bar=5
   &lt;li&gt;The Reactor team is looking for a &lt;a href="https://pivotal.io/careers/posting/staff-software-engineer-reactor-reactive-spring/1077260"&gt;motivated new engineer to join the team&lt;/a&gt; - apply now!&lt;/li&gt;
   &lt;li&gt;Spring Cloud Data Flow ninja Gunnar Hillert has just announced &lt;a href="https://spring.io/blog/2018/03/12/spring-cloud-data-flow-1-4-rc1-released"&gt;Spring Cloud Data Flow 1.4 RC1&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href="https://spring.io/blog/2018/03/12/spring-io-platform-cairo-rc1"&gt;Spring IO Platform Cairo-RC1&lt;/a&gt; lead Andy Wilkinson has just announced the latest updates, including Spring Boot 2.0. Check it out and make sure works as you expect it to.&lt;/li&gt;
-  &lt;li&gt;I love this &lt;a href="https://spring.io/blog/2018/03/12/upgrading-start-spring-io-to-spring-boot-2"&gt;post&lt;/a&gt; by Spring team legend St?phane Nicoll on upgrading the &lt;a href="http://start.spring.io"&gt;Spring Initializr (http://start.spring.io)&lt;/a&gt; to Spring Boot 2.0.&lt;/li&gt;
+  &lt;li&gt;I love this &lt;a href="https://spring.io/blog/2018/03/12/upgrading-start-spring-io-to-spring-boot-2"&gt;post&lt;/a&gt; by Spring team legend StÃ©phane Nicoll on upgrading the &lt;a href="http://start.spring.io"&gt;Spring Initializr (http://start.spring.io)&lt;/a&gt; to Spring Boot 2.0.&lt;/li&gt;
   &lt;li&gt;&lt;a href="https://github.com/spring-projects/spring-data-jdbc/commit/73fe1ca93bb7c5f9e31292343c0b06f981e51284"&gt;The Spring Data JDBC project has added &lt;code&gt;@Modify&lt;/code&gt; for marking queries&lt;/a&gt; that perform DML or DDL. Modifying queries will return type &lt;code&gt;boolean&lt;/code&gt; or &lt;code&gt;Boolean&lt;/code&gt; when the number of updated rows is greater 0. This shouldn&amp;rsquo;t be used for DML statements since it will always return false.&lt;/li&gt;
   &lt;li&gt;Spring Web Flow lead Rossen Stoyanchev has just &lt;a href="https://spring.io/blog/2018/03/07/spring-web-flow-2-5-released"&gt;announced Spring Web Flow 2.5&lt;/a&gt;. This release provides an upgrade path for applications using Web Flow to Spring Framework 5 with Java 8, Servlet 3.1, Hibernate 5, Tiles 3, and JSF 2.2 as minimum requirements.&lt;/li&gt;
   &lt;li&gt;Spring Boot legend Madhura Bhave looks at support for &lt;a href="https://spring.io/blog/2018/03/07/testing-auto-configurations-with-spring-boot-2-0"&gt;testing auto-configurations in Spring Boot 2.0&lt;/a&gt;&lt;/li&gt;
@@ -1441,7 +1441,7 @@ http.server.requests.response.200.uri./bar=5
   &lt;li&gt;Registration &lt;em&gt;and&lt;/em&gt; the CFP for &lt;a href="https://twitter.com/springcentral/status/971490856313151488"&gt;SpringOne Platform 2018 are both now open!&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;The &lt;a href="http://bmuschko.com/blog/gradle-project-generation/"&gt;Gradle Initializr now runs on Spring Boot 2.0&lt;/a&gt;. You can even enjoy the custom Gradlephant banner if you&amp;rsquo;d like.&lt;/li&gt;
   &lt;li&gt;We&amp;rsquo;re growing &lt;a href="https://www.meetup.com/SpringMN/events/246492750/?_lrsc=7d17a732-8fa2-44e3-8ee8-9d271de18519&amp;_cookie-check=BKO9-hM4zzyV8nkq"&gt;the Spring community in Minnesota&lt;/a&gt;. Let&amp;rsquo;s keep the momentum going from our first #meetup. Join us on 3/12!&lt;/li&gt;
-  &lt;li&gt;Spring Social lead Craig Walls has a &lt;em&gt;great&lt;/em&gt; post that looks at how to &lt;a href="https://twitter.com/springcentral/status/971159310226006016"&gt;use Spring Security 5¡¯s OAuth2 client support to integrate with external APIs such as Facebook&lt;/a&gt;.&lt;/li&gt;
+  &lt;li&gt;Spring Social lead Craig Walls has a &lt;em&gt;great&lt;/em&gt; post that looks at how to &lt;a href="https://twitter.com/springcentral/status/971159310226006016"&gt;use Spring Security 5â€™s OAuth2 client support to integrate with external APIs such as Facebook&lt;/a&gt;.&lt;/li&gt;
   &lt;li&gt;I really liked this discussion on &lt;a href="https://yokota.blog/2018/03/05/stream-relational-processing-platforms/amp/?__twitter_impression=true"&gt;the types of data streaming platforms&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;I was one of many in the &lt;a href="https://twitter.com/offheap/status/970920533893271553?s=12"&gt;Off Heap podcast episode recorded live at the Atlanta DevNexus 2018 event&lt;/a&gt; - enjoy!&lt;/li&gt;
   &lt;li&gt;The Pivotal conversations podcast &lt;a href="https://twitter.com/cote/status/970803667593916417?s=12"&gt;has a nice interview with Spring Tools lead Martin Lippert&lt;/a&gt;&lt;/li&gt;
