@@ -1,0 +1,13 @@
+
+public class Test {
+	private int a = 5;
+}
+
+class Test1 extends Test{
+	int tmp = super.a;
+	static int b = tmp;
+	
+	public static void main(String[] args) {
+		System.out.println(b);
+	}
+}
