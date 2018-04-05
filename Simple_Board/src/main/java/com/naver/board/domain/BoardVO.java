@@ -1,38 +1,127 @@
 package com.naver.board.domain;
 
 public class BoardVO {
-	private String 	num;
-	private String 	comments;
-	private String 	regdate;
+	private String 	name;
+	private String company;
+	private String playdate;
+	private String country;
+	private String ticket;
+	private String genre;
+	private String rate;
+	private String mid;
+	private String senti;
+	private String story;
+	private String act;
+	private String video;
 	
 	public BoardVO() {
 		super();
 	}
 
-	public String getNum() {
-		return num;
+	public String getName() {
+		return name;
 	}
 
-	public void setNum(String num) {
-		this.num = num;
+	public void setName(String name) {
+		this.name = name;
 	}
 
-	public String getComments() {
-		return comments;
+	public String getCompany() {
+		return company;
 	}
 
-	public void setComments(String comments) {
-		this.comments = comments;
+	public void setCompany(String company) {
+		this.company = company;
 	}
 
-	public String getRegdate() {
-		return regdate;
+	public String getPlaydate() {
+		return playdate;
 	}
 
-	public void setRegdate(String regdate) {
-		this.regdate = regdate;
+	public void setPlaydate(String playdate) {
+		this.playdate = playdate;
+	}
+
+	public String getCountry() {
+		return country;
+	}
+
+	public void setCountry(String country) {
+		this.country = country;
+	}
+
+	public String getTicket() {
+		return ticket;
+	}
+
+	public void setTicket(String ticket) {
+		this.ticket = ticket;
+	}
+
+	public String getGenre() {
+		return genre;
+	}
+
+	public void setGenre(String genre) {
+		this.genre = genre;
+	}
+
+	public String getRate() {
+		return rate;
+	}
+
+	public void setRate(String rate) {
+		this.rate = rate;
+	}
+
+	public String getMid() {
+		return mid;
+	}
+
+	public void setMid(String mid) {
+		this.mid = mid;
+	}
+
+	public String getSenti() {
+		return senti;
+	}
+
+	public void setSenti(String senti) {
+		this.senti = senti;
+	}
+
+	public String getStory() {
+		return story;
+	}
+
+	public void setStory(String story) {
+		this.story = story;
+	}
+
+	public String getAct() {
+		return act;
+	}
+
+	public void setAct(String act) {
+		this.act = act;
+	}
+
+	public String getVideo() {
+		return video;
+	}
+
+	public void setVideo(String video) {
+		this.video = video;
+	}
+
+	@Override
+	public String toString() {
+		return "BoardVO [name=" + name + ", company=" + company + ", playdate=" + playdate + ", country=" + country
+				+ ", ticket=" + ticket + ", genre=" + genre + ", rate=" + rate + ", mid=" + mid + ", senti=" + senti
+				+ ", story=" + story + ", act=" + act + ", video=" + video + "]";
 	}
 	
 	
 	
+
 }

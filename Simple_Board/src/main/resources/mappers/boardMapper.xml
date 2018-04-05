@@ -7,7 +7,7 @@
 	<select id="selectAll" resultType="com.naver.board.domain.BoardVO"
 	parameterType="String">
 		<!-- SELECT * FROM ${param} -->
-		SELECT * FROM movie
+		SELECT * FROM movie_info
 	</select>
 	
 </mapper>
