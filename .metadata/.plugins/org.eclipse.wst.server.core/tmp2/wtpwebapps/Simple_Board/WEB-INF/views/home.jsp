@@ -7,7 +7,17 @@
 	<title>Home</title>
 </head>
 <body>
-	<table>
+	<span align="left" >
+		<div><img src="http://35.194.131.5:9999/files/img/${boardOne.mid }.jpg" width="300" height="450"></div>
+		<div>${boardOne.name}</div>
+		<div>${boardOne.playdate}</div>
+	</span>	
+	<span>
+		<div><img src="http://35.194.131.5:9999/files/img/19820019.jpg" width="300" height="450"></div>
+		<div>${boardOne.name}</div>
+		<div>${boardOne.playdate}</div>
+	</span>
+	<!-- <table>
 		<thead>
 			<tr>
 				<th>영화이름</th>
@@ -27,6 +37,7 @@
 		<tbody>
 			<c:forEach items="${boardList}" var="board">
 				<tr>
+					<td><img src="http://35.194.131.5:9999/files/img/19820019.jpg" width="200" height="250"></td>
 					<td>${board.name}</td>
 					<td>${board.company}</td>
 					<td>${board.playdate}</td>
@@ -42,5 +53,6 @@
 			</c:forEach>
 		</tbody>
 	</table>
+	-->
 </body>
 </html>

@@ -22,5 +22,13 @@ public class BoardServiceImpl implements BoardService{
 		
 		return boardDao.selectAll(val);
 	}
+
+	@Override
+	public BoardVO selectOne(String val) throws Exception {
+
+		return boardDao.selectOne(val);
+	}
+	
+	
 	
 }

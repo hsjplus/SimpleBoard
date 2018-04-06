@@ -32,4 +32,14 @@ public class BoardDaoImpl implements BoardDao {
 		
 	}
 
+	@Override
+	public BoardVO selectOne(String val) throws Exception {
+			
+		Map<String, Object> parameter = new HashMap<String, Object>();
+		parameter.put("val", val);
+			
+		return sqlSession.selectOne(namespace + ".selectOne", parameter);
+	}
+
 }
+

@@ -29,5 +29,15 @@ public class BoardController {
 		return "home";
 	}
 	
+	@RequestMapping(value="/boardOne", method=RequestMethod.GET)
+	public String selectOne(Model model, HttpServletRequest req) throws Exception{
+		
+		String val = req.getParameter("table");
+		BoardVO boardOne = boardService.selectOne(val);
+		model.addAttribute("boardOne", boardOne);
+		
+		return "home";
+	}
+	
 	
 }

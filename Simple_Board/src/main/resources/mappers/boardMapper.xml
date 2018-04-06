@@ -10,4 +10,7 @@
 		SELECT * FROM movie_info
 	</select>
 	
+	<select id='selectOne' resultType="com.naver.board.domain.BoardVO" parameterType="String">
+		select * from movie_info where mid = '19820019'
+	</select>
 </mapper>

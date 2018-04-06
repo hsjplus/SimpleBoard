@@ -8,4 +8,5 @@ public interface BoardService {
 	
 	public List<BoardVO> selectAll(String val) throws Exception;
 	
+	public BoardVO selectOne(String val) throws Exception;
 }
