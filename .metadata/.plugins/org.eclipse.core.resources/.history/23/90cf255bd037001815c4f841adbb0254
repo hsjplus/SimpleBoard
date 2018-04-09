@@ -1,9 +1,0 @@
-
-public class Test {
-	private int a = 5;
-}
-
-class Test1 extends Test{
-	int b = super.a;
-
-}

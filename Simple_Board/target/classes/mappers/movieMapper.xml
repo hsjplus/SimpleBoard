@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+	PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+	"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+	
+<mapper namespace="com.naver.mapper.movieMapper">
+	<select id="selectOne" resultType="com.naver.board.domain.MovieVO" parameterType="String">
+		select * from movie_info where mid = ${mid}
+	</select>
+	
+	<select id="selectActor" resultType="com.naver.board.domain.ActorVO" parameterType="String">
+		select name from actor_director where mid = ${mid} and role = '배우'
+	</select>
+	
+	<select id="selectDirector" resultType="com.naver.board.domain.ActorVO" parameterType="String">
+		select name from actor_director where mid = ${mid} and role = '감독'
+	</select>	
+	
+</mapper>

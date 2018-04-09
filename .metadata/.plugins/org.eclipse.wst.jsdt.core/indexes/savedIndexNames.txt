@@ -1,8 +1,1 @@
-INDEX VERSION 1.4+/Users/soong/SimpleBoard/.metadata/.plugins/org.eclipse.wst.jsdt.core/indexes
-2502553165.index
-3541773276.index
-942934280.index
-565045755.index
-3226398298.index
-1851340575.index
-3926916891.index
+INDEX VERSION 1.4+C:\webdev\workspace2\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes

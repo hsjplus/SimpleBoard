@@ -2,35 +2,48 @@ package com.naver.board.domain;
 
 public class MovieVO {
 	
-	private String mname;
-	private String sdate;
+	private String name;
+	private String company;
+	private String playdate;
+	private String country;
+	private String ticket;
 	private String genre;
 	private String rate; 
-	private String dname;
-	private String aname;
+	private String mid;
+	private String senti;
+	private String story;
+	private String act;
+	private String video;
 	
-	
-	public MovieVO(String mname, String sdate, String genre, String rate, String dname, String aname) {
-		super();
-		this.mname = mname;
-		this.sdate = sdate;
-		this.genre = genre;
-		this.rate = rate;
-		this.dname = dname;
-		this.aname = aname;
+	public String getName() {
+		return name;
 	}
-	
-	public String getMname() {
-		return mname;
+	public void setName(String name) {
+		this.name = name;
 	}
-	public void setMname(String mname) {
-		this.mname = mname;
+	public String getCompany() {
+		return company;
 	}
-	public String getSdate() {
-		return sdate;
+	public void setCompany(String company) {
+		this.company = company;
 	}
-	public void setSdate(String sdate) {
-		this.sdate = sdate;
+	public String getPlaydate() {
+		return playdate;
+	}
+	public void setPlaydate(String playdate) {
+		this.playdate = playdate;
+	}
+	public String getCountry() {
+		return country;
+	}
+	public void setCountry(String country) {
+		this.country = country;
+	}
+	public String getTicket() {
+		return ticket;
+	}
+	public void setTicket(String ticket) {
+		this.ticket = ticket;
 	}
 	public String getGenre() {
 		return genre;
@@ -44,17 +57,37 @@ public class MovieVO {
 	public void setRate(String rate) {
 		this.rate = rate;
 	}
-	public String getDname() {
-		return dname;
+	public String getMid() {
+		return mid;
 	}
-	public void setDname(String dname) {
-		this.dname = dname;
+	public void setMid(String mid) {
+		this.mid = mid;
 	}
-	public String getAname() {
-		return aname;
+	public String getSenti() {
+		return senti;
 	}
-	public void setAname(String aname) {
-		this.aname = aname;
+	public void setSenti(String senti) {
+		this.senti = senti;
 	}
+	public String getStory() {
+		return story;
+	}
+	public void setStory(String story) {
+		this.story = story;
+	}
+	public String getAct() {
+		return act;
+	}
+	public void setAct(String act) {
+		this.act = act;
+	}
+	public String getVideo() {
+		return video;
+	}
+	public void setVideo(String video) {
+		this.video = video;
+	}
+	
+	
 	
 }

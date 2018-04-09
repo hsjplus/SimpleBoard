@@ -1,8 +1,0 @@
-
-public class Test {
-	private int a;
-}
-
-class Test1 extends Test{
-	System.out.println(super.a);
-}
