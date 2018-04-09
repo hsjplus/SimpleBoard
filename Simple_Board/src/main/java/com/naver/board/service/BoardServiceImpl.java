@@ -28,6 +28,12 @@ public class BoardServiceImpl implements BoardService{
 
 		return boardDao.selectOne(val);
 	}
+
+	@Override
+	public List<BoardVO> selectYear(String year, String name) throws Exception {
+
+		return boardDao.selectYear(year, name);
+	}
 	
 	
 	

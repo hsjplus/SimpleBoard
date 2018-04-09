@@ -19,12 +19,12 @@ public class BoardController {
 	@Inject
 	private BoardService boardService;
 	
-	@RequestMapping(value="/boardList", method=RequestMethod.GET)
+	@RequestMapping(value="/", method=RequestMethod.GET)
 	public String selectAll(Model model, HttpServletRequest req) throws Exception{
 		
 		String val = req.getParameter("table");
-		List<BoardVO> boardList = boardService.selectAll(val);
-		model.addAttribute("boardList", boardList);
+		List<BoardVO> boardYear = boardService.selectAll(val);
+		model.addAttribute("boardYear", boardYear);
 		
 		return "home";
 	}
@@ -35,6 +35,17 @@ public class BoardController {
 		String val = req.getParameter("table");
 		BoardVO boardOne = boardService.selectOne(val);
 		model.addAttribute("boardOne", boardOne);
+		
+		return "home";
+	}
+	
+	@RequestMapping(value="/boardList", method=RequestMethod.GET)
+	public String selectYear(Model model, HttpServletRequest req) throws Exception{
+		
+		String year = req.getParameter("year");
+		String name = req.getParameter("name");
+		List<BoardVO> boardYear = boardService.selectYear(year, name);
+		model.addAttribute("boardYear", boardYear);
 		
 		return "home";
 	}

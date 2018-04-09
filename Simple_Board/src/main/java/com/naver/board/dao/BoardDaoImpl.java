@@ -41,5 +41,15 @@ public class BoardDaoImpl implements BoardDao {
 		return sqlSession.selectOne(namespace + ".selectOne", parameter);
 	}
 
+	@Override
+	public List<BoardVO> selectYear(String year, String name) throws Exception {
+		Map<String, Object> parameter = new HashMap<String, Object>();
+		parameter.put("year", year);
+		parameter.put("name", name);
+		
+		return sqlSession.selectList(namespace + ".selectYear", parameter);
+	}
+
+	
 }
 

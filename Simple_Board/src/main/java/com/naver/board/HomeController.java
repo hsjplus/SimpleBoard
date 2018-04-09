@@ -20,19 +20,5 @@ public class HomeController {
 	/**
 	 * Simply selects the home view to render by returning its name.
 	 */
-	@RequestMapping(value = "/", method = RequestMethod.GET)
-	public String home(HttpServletRequest req, Model model) {
 
-		String userName = req.getParameter("name");
-		
-		model.addAttribute("userName", userName);
-		
-		return "home";
-	}
-
-	@RequestMapping(value = "/sample", method = RequestMethod.GET)
-	public String sample(){
-		return "sample";
-	}
-	
 }
