@@ -49,6 +49,7 @@ div#search{
 				</select>
 				<p>영화명 : <input type="text" name="name" value=""></p>
 				<input type="submit" value="검색"  height="20" >
+				<!-- <input type="hidden" alt = "1" name="page" > -->
 			</div>
 		
 			<c:forEach items="${boardYear}" var = "board">
@@ -61,6 +62,10 @@ div#search{
 					<p>관객수 : ${board.ticket }</p>
 					<p>장르 : ${board.genre }</p>
 				</div>
+			</c:forEach>
+			<c:forEach begin="1" end="10" var="i"  >
+			<input type="submit" name="page"  value="${i }"alt="1">
+			
 			</c:forEach>
 		</div>
 	</form>

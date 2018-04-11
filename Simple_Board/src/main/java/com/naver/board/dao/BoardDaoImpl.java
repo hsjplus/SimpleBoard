@@ -23,10 +23,10 @@ public class BoardDaoImpl implements BoardDao {
 	private static final String namespace = "com.naver.mapper.boardMapper";
 	
 	@Override
-	public List<BoardVO> selectAll(String val) throws Exception {
+	public List<BoardVO> selectAll(int page) throws Exception {
 		
 		Map<String, Object> parameter = new HashMap<String, Object>();
-		parameter.put("param", val);
+		parameter.put("page", page);
 		// boardMapper.xml에 있는 namespace와 selsectAll을 가져온다
 		return sqlSession.selectList(namespace + ".selectAll", parameter);
 		
@@ -42,14 +42,24 @@ public class BoardDaoImpl implements BoardDao {
 	}
 
 	@Override
-	public List<BoardVO> selectYear(String year, String name) throws Exception {
+	public List<BoardVO> selectYear(String year, String name, int page) throws Exception {
 		Map<String, Object> parameter = new HashMap<String, Object>();
 		parameter.put("year", year);
 		parameter.put("name", name);
+		parameter.put("page", page);
+		
 		
 		return sqlSession.selectList(namespace + ".selectYear", parameter);
 	}
 
+	@Override 
+	public int selectCnt(String year, String name) throws Exception {
+		Map<String, Object> parameter = new HashMap<String, Object>();
+		parameter.put("year", year);
+		parameter.put("name", name);
+		
+		return sqlSession.selectOne(namespace + ".selectCnt", parameter);
+	}
 	
 }
 

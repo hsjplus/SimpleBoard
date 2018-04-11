@@ -8,6 +8,7 @@
 	parameterType="String">
 		<!-- SELECT * FROM ${param} -->
 		SELECT * FROM movie_info order by ticket desc
+		limit 0, 20
 	</select>
 	
 	<select id='selectOne' resultType="com.naver.board.domain.BoardVO" parameterType="String">
@@ -19,6 +20,7 @@
 		where playdate like '${year}%' 
 		and name like '%${name}%' 
 		order by ticket desc
+		limit ${page},20
 	</select>
 	
 </mapper>

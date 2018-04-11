@@ -13,11 +13,20 @@ public class BoardVO {
 	private String story;
 	private String act;
 	private String video;
-	
+	private int count;
+
 	public BoardVO() {
 		super();
 	}
 
+	public int getCount() {
+		return count;
+	}
+	
+	public void setCount(int count) {
+		this.count = count;
+	}
+	
 	public String getName() {
 		return name;
 	}
@@ -118,8 +127,9 @@ public class BoardVO {
 	public String toString() {
 		return "BoardVO [name=" + name + ", company=" + company + ", playdate=" + playdate + ", country=" + country
 				+ ", ticket=" + ticket + ", genre=" + genre + ", rate=" + rate + ", mid=" + mid + ", senti=" + senti
-				+ ", story=" + story + ", act=" + act + ", video=" + video + "]";
+				+ ", story=" + story + ", act=" + act + ", video=" + video + ", count=" + count + "]";
 	}
+
 	
 	
 	

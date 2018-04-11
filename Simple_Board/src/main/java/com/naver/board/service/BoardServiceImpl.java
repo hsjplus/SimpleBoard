@@ -18,9 +18,9 @@ public class BoardServiceImpl implements BoardService{
 	private BoardDao boardDao;
 
 	@Override
-	public List<BoardVO> selectAll(String val) throws Exception {
+	public List<BoardVO> selectAll(int page) throws Exception {
 		
-		return boardDao.selectAll(val);
+		return boardDao.selectAll(page);
 	}
 
 	@Override
@@ -30,11 +30,16 @@ public class BoardServiceImpl implements BoardService{
 	}
 
 	@Override
-	public List<BoardVO> selectYear(String year, String name) throws Exception {
+	public List<BoardVO> selectYear(String year, String name, int page) throws Exception {
 
-		return boardDao.selectYear(year, name);
+		return boardDao.selectYear(year, name, page);
 	}
 	
+	@Override
+	public int selectCnt(String year, String name) throws Exception {
+		
+		return boardDao.selectCnt(year, name);
+	}
 	
 	
 }

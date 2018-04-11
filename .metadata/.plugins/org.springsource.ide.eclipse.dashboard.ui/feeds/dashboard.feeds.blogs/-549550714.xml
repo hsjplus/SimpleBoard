@@ -55,7 +55,7 @@
     <link rel="alternate" href="https://spring.io/blog/2018/04/05/spring-boot-2-0-1-available-now" />
     <category term="releases" label="Releases" />
     <author>
-      <name>St?phane Nicoll</name>
+      <name>StÃ©phane Nicoll</name>
     </author>
     <id>tag:spring.io,2018-04-05:3233</id>
     <updated>2018-04-05T14:21:00Z</updated>
@@ -106,7 +106,7 @@
     <link rel="alternate" href="https://spring.io/blog/2018/04/05/spring-boot-1-5-11-available-now" />
     <category term="releases" label="Releases" />
     <author>
-      <name>St?phane Nicoll</name>
+      <name>StÃ©phane Nicoll</name>
     </author>
     <id>tag:spring.io,2018-04-05:3232</id>
     <updated>2018-04-05T11:15:58Z</updated>
@@ -231,7 +231,7 @@
     <id>tag:spring.io,2018-04-03:3223</id>
     <updated>2018-04-03T21:07:51Z</updated>
     <content type="html">&lt;p&gt;Hi Spring fans! What a week! This week I&amp;rsquo;m in beautiful Dallas, TX, for the Spring One Tour Dallas event which is, like so many of the other cities already, utterly and completely sold out! What a crowd! &lt;/p&gt;
-&lt;p&gt;&lt;blockquote class="twitter-tweet" data-lang="en"&gt;&lt;p lang="en" dir="ltr"&gt;Wow &lt;a href="https://twitter.com/hashtag/SpringOneTour?src=hash&amp;amp;ref_src=twsrc%5Etfw"&gt;#SpringOneTour&lt;/a&gt; Dallas, you¡¯re so &lt;a href="https://twitter.com/hashtag/bootiful?src=hash&amp;amp;ref_src=twsrc%5Etfw"&gt;#bootiful&lt;/a&gt; ! &lt;a href="https://t.co/SySCBw4UNX"&gt;pic.twitter.com/SySCBw4UNX&lt;/a&gt;&lt;/p&gt;&amp;mdash; Josh Long (?ñýõð, ???) (@starbuxman) &lt;a href="https://twitter.com/starbuxman/status/981241053612298240?ref_src=twsrc%5Etfw"&gt;April 3, 2018&lt;/a&gt;&lt;/blockquote&gt;&lt;br/&gt;&lt;script async src="https://platform.twitter.com/widgets.js" charset="utf-8"&gt;&lt;/script&gt;&lt;/p&gt;
+&lt;p&gt;&lt;blockquote class="twitter-tweet" data-lang="en"&gt;&lt;p lang="en" dir="ltr"&gt;Wow &lt;a href="https://twitter.com/hashtag/SpringOneTour?src=hash&amp;amp;ref_src=twsrc%5Etfw"&gt;#SpringOneTour&lt;/a&gt; Dallas, youâ€™re so &lt;a href="https://twitter.com/hashtag/bootiful?src=hash&amp;amp;ref_src=twsrc%5Etfw"&gt;#bootiful&lt;/a&gt; ! &lt;a href="https://t.co/SySCBw4UNX"&gt;pic.twitter.com/SySCBw4UNX&lt;/a&gt;&lt;/p&gt;&amp;mdash; Josh Long (é¾™ä¹‹æ˜¥, à¤œà¥‹à¤¶) (@starbuxman) &lt;a href="https://twitter.com/starbuxman/status/981241053612298240?ref_src=twsrc%5Etfw"&gt;April 3, 2018&lt;/a&gt;&lt;/blockquote&gt;&lt;br/&gt;&lt;script async src="https://platform.twitter.com/widgets.js" charset="utf-8"&gt;&lt;/script&gt;&lt;/p&gt;
 &lt;p&gt;And, so, without further ado, let&amp;rsquo;s get to it!&lt;/p&gt;
 &lt;ul&gt;
   &lt;li&gt;Spring Framework Juergen Hoeller has just &lt;a href="https://spring.io/blog/2018/04/03/spring-framework-5-0-5-and-4-3-15-available-now"&gt;announced Spring Framework 5.0.5 and 4.3.15 are now available.&lt;/a&gt;&lt;/li&gt;
@@ -273,7 +273,7 @@
     <id>tag:spring.io,2018-04-03:3222</id>
     <updated>2018-04-03T21:02:00Z</updated>
     <content type="html">&lt;p&gt;Dear Spring community,&lt;/p&gt;
-&lt;p&gt;I¡¯m pleased to announce that Spring Framework &lt;a href="https://jira.spring.io/secure/ReleaseNote.jspa?projectId=10000&amp;version=16634"&gt;5.0.5&lt;/a&gt; and &lt;a href="https://jira.spring.io/secure/ReleaseNote.jspa?projectId=10000&amp;version=16633"&gt;4.3.15&lt;/a&gt; are &lt;a href="https://projects.spring.io/spring-framework/"&gt;available now&lt;/a&gt;, as another pair of refinement releases which are recommended as immediate upgrades for all users. Our 5.0.5 release is the foundation for the upcoming Spring Boot 2.0.1 release later this week, and 4.3.15 will be picked up by Boot 1.5.11 around the same time.&lt;/p&gt;
+&lt;p&gt;Iâ€™m pleased to announce that Spring Framework &lt;a href="https://jira.spring.io/secure/ReleaseNote.jspa?projectId=10000&amp;version=16634"&gt;5.0.5&lt;/a&gt; and &lt;a href="https://jira.spring.io/secure/ReleaseNote.jspa?projectId=10000&amp;version=16633"&gt;4.3.15&lt;/a&gt; are &lt;a href="https://projects.spring.io/spring-framework/"&gt;available now&lt;/a&gt;, as another pair of refinement releases which are recommended as immediate upgrades for all users. Our 5.0.5 release is the foundation for the upcoming Spring Boot 2.0.1 release later this week, and 4.3.15 will be picked up by Boot 1.5.11 around the same time.&lt;/p&gt;
 &lt;p&gt;Both framework releases come with plenty of bug fixes but also with a wide selection of refinements, wrapping up before we branch towards Spring Framework 5.1 and turn the 5.0.x and 4.3.x lines into low-volume maintenance mode. Our 5.0.5 build is also prepared for running on the recently released JDK 10, allowing the framework to be built and tested on JDK 8 as well as 9 and 10 in the meantime. Last but not least, 5.0.5 (and to a minor degree 4.3.15 as well) includes significant performance improvements for annotation introspection on startup.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;2018-04-05 Update:&lt;/strong&gt; The releases address multiple vulnerability reports. Please see this &lt;a href="https://spring.io/blog/2018/04/05/multiple-cve-reports-published-for-the-spring-framework"&gt;blog post&lt;/a&gt; published after the associated &lt;a href="https://spring.io/blog/2018/04/05/spring-boot-2-0-1-available-now"&gt;Spring Boot 2.0.1 and 1.5.11&lt;/a&gt; releases.&lt;/p&gt;
 &lt;p&gt;In terms of the roadmap, we have 5.0.6 and 4.3.16 planned for May before we aim for 5.1 RC1 at the very end of June&amp;hellip; preparing for JDK 11 and other infrastructure upgrades. Stay tuned!&lt;/p&gt;
@@ -701,7 +701,7 @@ dependencies {&#xD;
   &lt;li&gt;Spring Security SAML DSL lead Filip Hanik has &lt;a href="https://spring.io/blog/2018/03/26/spring-security-saml-dsl-1-0-5-release"&gt;just announced the 1.0.5.RELEASE of our SAML DSL project&lt;/a&gt;. This release works against Spring Security SAML 1.0.4.RELEASE. This release adds a simple Java configuration option to your existing Spring Boot applications.&lt;/li&gt;
   &lt;li&gt;Ryan Baxter has just &lt;a href="https://spring.io/blog/2018/03/23/spring-cloud-finchley-m9-has-been-released"&gt;announced Spring Cloud Finchley.M9&lt;/a&gt;. This new release includes some nice features in Spring Cloud Gateway including support for rolling deployments and route refresh from service discovery heartbeats.&lt;/li&gt;
   &lt;li&gt;Spring Tool Suite lead Martin Lippert has &lt;a href="https://spring.io/blog/2018/03/22/spring-tool-suite-3-9-3-released"&gt;just announced Spring Tool Suite 3.9.3&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;Erdem G?nay shares the journey of &lt;a href="https://www.infoq.com/presentations/turkcell-spring-boot-cloud"&gt;re-platforming Turkcell TV service to Cloud Native within a few months using Spring Boot and Spring Cloud.&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Erdem GÃ¼nay shares the journey of &lt;a href="https://www.infoq.com/presentations/turkcell-spring-boot-cloud"&gt;re-platforming Turkcell TV service to Cloud Native within a few months using Spring Boot and Spring Cloud.&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;Ryan Dawson looks at application reconfiguration &lt;a href="https://dzone.com/articles/spring-cloud-config-server-for-the-impatient"&gt;with Spring Cloud Config Server&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;The &lt;em&gt;Java Dev Journal&lt;/em&gt; has a simple &lt;a href="https://www.javadevjournal.com/spring-boot/spring-boot-standalone-application/"&gt;walkthrough introducing Spring Boot&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;Shubham Aggarwal has a &lt;a href="https://www.javacodegeeks.com/2018/03/spring-data-jpa-example-with-spring-boot.html"&gt;nice post demonstrating Spring Data JPA with Spring Boot&lt;/a&gt;&lt;/li&gt;

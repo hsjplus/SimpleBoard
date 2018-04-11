@@ -9,13 +9,14 @@ img {
 	width : 300px;
 	height : 450px;
 }
-div#movie_frame{
+div#movie_frame {
 	font-size:15;
 	font-style:oblique;
 	font-family:monospace;
 	padding:30px;
 	margin:30px;
 	margin-left:45px;
+	float: none;
 }
 div.movie_info{
 	float : left;
@@ -34,11 +35,11 @@ div#search{
 </head>
 <body>
 	
-	<form method="get"  action="/boardList">
-		<div id="movie_frame" >	
+	<form method="get" action="/board?year=${pastYear}">
+		<div id="movie_frame">	
 			<div id="search" align="right" >
 				연도 : <select name="year" >
-					<option value="">없음</option>
+					<option value="2">없음</option>
 					<option value="2011">2011</option>
 					<option value="2012">2012</option>
 					<option value="2013">2013</option>
@@ -47,21 +48,29 @@ div#search{
 					<option value="2016">2016</option>
 					<option value="2017">2017</option>
 				</select>
-				<p>영화명 : <input type="text" name="name" value=""></p>
-				<input type="submit" value="검색"  height="20" >
+				<p>영화명 : <input type="text" name="name"></p>
+				<input type= "submit" value="검색"  height="20" >
 			</div>
-		
-			<c:forEach items="${boardYear}" var = "board">
-				<div class="movie_info">
-					<p><a href="/movie?mid=${board.mid }">
-						<img src="http://35.194.131.5:9999/files/img/${board.mid}.jpg">
-						 </a>
-					</p>
-					<p>영화명 : ${board.name }</p>					
-					<p>관객수 : ${board.ticket }</p>
-					<p>장르 : ${board.genre }</p>
-				</div>
+			<div>
+				<c:forEach items="${boardYear}" var = "board">
+					<div class="movie_info">
+						<p><a href="/movie?mid=${board.mid }">
+							<img src="http://35.194.131.5:9999/files/img/${board.mid}.jpg">
+						   </a>
+						</p>
+						<p>영화명 : ${board.name }</p>					
+						<p>개봉일 : ${board.playdate }</p>
+						<p>관객수 : ${board.ticket}</p>
+						<p>장르 : ${board.genre}</p>
+						
+					</div>
+				</c:forEach>
+			</div>
+		<div align="center" >
+			<c:forEach begin="1" end="${boardCnt}" var="i" >
+				<input type="submit" name="page" value="${i}" alt="1">
 			</c:forEach>
+		</div>
 		</div>
 	</form>
 </body>
