@@ -1,0 +1,89 @@
+		*{
+			margin: 0px ;
+		}
+		
+		#contents{
+			clear: both;
+			overflow: hidden;
+			margin-left: 150px;
+			margin-right: 150px;
+			margin-top: 20px;
+			margin-bottom: 50px;
+			/* font-style:oblique; */
+			font-family: monospace;
+		}
+		
+		#senti, #topic {
+			overflow: hidden;
+			clear: both;
+		}
+		
+		#graph, #graph1{
+			float: left;
+			width: 350px; 
+			height:400px;
+			padding-top: 50px;
+		}
+		
+		#chart1{
+			float: left;
+			width: 340px;
+			height: 600px;
+			margin-top: 40px;
+			padding-right: 60px;
+		}
+		
+		#topics{
+			maring-left: 10px;
+		}
+		
+		img.poster{
+			width: 210px;
+			height: 300px;
+		}
+		
+		#wordcloud_wrapper{
+			text-align: center;
+		}
+		
+		img.wordcloud{
+			height: 350px;
+		}
+		
+		#movie_detail{
+			clear: both;
+			overflow: hidden; 
+			margin-top: 100px;
+		}
+		
+		.movie_left{
+			float: left;
+			margin-right: 70px;
+		}
+		
+		.movie_right{
+			width: 750px;
+		}
+		
+		.class_table{
+			width: 750px;
+		}
+
+		.class_table tr{
+			border-bottom: 1px solid #c0c0c0;
+		}		
+		
+		.good, .story {
+			color: #ffc0cb;
+			font-weight: bold;
+		}
+		
+		.bad, .acting {
+			color: #b0e0e6;
+			font-weight: bold;
+		}
+		
+		.video{
+			color: #dda0dd;
+			font-weight: bold; 
+		}

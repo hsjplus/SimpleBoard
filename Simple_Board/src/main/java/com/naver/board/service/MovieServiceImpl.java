@@ -10,6 +10,7 @@ import com.naver.board.dao.BoardDao;
 import com.naver.board.dao.MovieDao;
 import com.naver.board.domain.ActorVO;
 import com.naver.board.domain.BoardVO;
+import com.naver.board.domain.CommentVO;
 import com.naver.board.domain.MovieVO;
 
 // 서비스단에는 Service로 어노테이션한다
@@ -35,7 +36,10 @@ public class MovieServiceImpl implements MovieService{
 	public List<ActorVO> selectDirector(String mid) throws Exception {
 		return movieDao.selectDirector(mid);
 	}
-	
-	
+
+	@Override
+	public List<CommentVO> selectComment(String mid) throws Exception {
+		return movieDao.selectComment(mid);
+	}
 	
 }

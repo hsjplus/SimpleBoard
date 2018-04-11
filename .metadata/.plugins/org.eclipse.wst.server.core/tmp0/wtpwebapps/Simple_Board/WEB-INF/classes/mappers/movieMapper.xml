@@ -16,4 +16,8 @@
 		select name from actor_director where mid = ${mid} and role = '감독'
 	</select>	
 	
+	<select id="selectComment" resultType="com.naver.board.domain.CommentVO" parameterType="String">
+		select comments, regdate, pn, topic from ${mtable} where mid = ${mid} limit 0, 1000
+	</select>	
+	
 </mapper>

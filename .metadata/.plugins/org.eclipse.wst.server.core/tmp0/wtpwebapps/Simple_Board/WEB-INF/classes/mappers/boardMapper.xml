@@ -8,6 +8,7 @@
 	parameterType="String">
 		<!-- SELECT * FROM ${param} -->
 		SELECT * FROM movie_info order by ticket desc
+		limit ${page}, 20
 	</select>
 	
 	<select id='selectOne' resultType="com.naver.board.domain.BoardVO" parameterType="String">
@@ -17,8 +18,16 @@
 	<select id = 'selectYear' resultType="com.naver.board.domain.BoardVO" parameterType="String">
 		select * from movie_info 
 		where playdate like '${year}%' 
-		and name like '%${name}%' 
+		and replace(name,' ','') like '%${name}%' 
 		order by ticket desc
+		limit ${page},20
+	</select>
+	
+	<select id="selectCnt" resultType="int" parameterType="String">
+		select count(name) from movie_info
+		where playdate like '${year}%'
+		and replace(name,' ','') like'%${name}%'
+		
 	</select>
 	
 </mapper>

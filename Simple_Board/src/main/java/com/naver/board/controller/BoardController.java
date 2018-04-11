@@ -22,7 +22,8 @@ public class BoardController {
 	@Inject
 	private BoardService boardService;
 	static String pastyear;
-	@RequestMapping(value="/board", method=RequestMethod.GET)
+	
+	@RequestMapping(value="/", method=RequestMethod.GET)
 	public String selectAll(Model model, HttpServletRequest req) throws Exception{
 		
 		int page ;
@@ -42,7 +43,6 @@ public class BoardController {
 		// boardYear
 		
 		String year = req.getParameter("year"); 
-		System.out.println("맨 처음 "+year);
 		System.out.println(year instanceof String);
 		String name = req.getParameter("name");
 		
@@ -50,16 +50,15 @@ public class BoardController {
 			
 		}else if(year.equals("")){
 			year = pastyear;
-			System.out.println("없을 때 "+year);
+			System.out.println("2�� ��Ȳ:"+year);
 		}else {
-			System.out.println("있을 때 "+year);
 			pastyear = year;
 		}
 		
 		List<BoardVO> boardYear = boardService.selectYear(year, name, page);
 		model.addAttribute("boardYear", boardYear);
 		model.addAttribute("year", year);
-		
+		model.addAttribute("pastyear",pastyear);
 		//boardCount
 		
 		int boardCnt = boardService.selectCnt(year, name);

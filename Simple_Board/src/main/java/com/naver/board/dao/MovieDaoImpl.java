@@ -11,6 +11,7 @@ import org.springframework.stereotype.Repository;
 
 import com.naver.board.domain.ActorVO;
 import com.naver.board.domain.BoardVO;
+import com.naver.board.domain.CommentVO;
 import com.naver.board.domain.MovieVO;
 
 //Repository는 자동으로 Bean에 등록시켜준다
@@ -49,8 +50,18 @@ public class MovieDaoImpl implements MovieDao {
 		parameter.put("mid", mid);
 			
 		return sqlSession.selectList(namespace + ".selectDirector", parameter);
+	}
+
+	@Override
+	public List<CommentVO> selectComment(String mid) throws Exception {
+		
+		Map<String, Object> parameter = new HashMap<String, Object>();
+		parameter.put("mid", mid);
+		String mtable = "m_" + mid.substring(0, 4);
+		parameter.put("mtable", mtable);
+			
+		return sqlSession.selectList(namespace + ".selectComment", parameter);
 	}	
 	
-
 }
 
